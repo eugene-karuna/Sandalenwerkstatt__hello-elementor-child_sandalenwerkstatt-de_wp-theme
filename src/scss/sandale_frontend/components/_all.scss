@@ -1,0 +1,27 @@
+/*************************
+Visual Tweaks
+***************************/
+
+/*+++Kollektion-Page+++*/
+
+/*tags*/
+.lhd_product_grid .jet-woo-product-tags {
+    position: absolute;
+    z-index: 999;
+    right: 0px;
+    border: solid;
+    border-width: 0px;
+    border-radius:2px;
+}
+
+/*************************
+Woocommerce
+***************************/
+.woo-variation-gallery-wrapper .woo-variation-gallery-container {
+    visibility: inherit !important;
+}
+
+
+.woo-variation-gallery-wrapper .wvg-gallery-thumbnail-image img {
+	width: 80%;
+}

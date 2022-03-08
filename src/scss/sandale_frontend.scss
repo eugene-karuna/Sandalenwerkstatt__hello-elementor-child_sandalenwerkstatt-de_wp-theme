@@ -2,4 +2,9 @@
  * Frontend styles for Sandalenwerkstatt__hello-elementor-child_sandalenwerkstatt-de_wp-theme
  *
  * @package Sandalenwerkstatt__hello-elementor-child_sandalenwerkstatt-de_wp-theme
+
  */
+
+
+@import "sandale_frontend/variables";
+@import "sandale_frontend/components/**/*.scss";

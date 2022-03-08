@@ -1,0 +1,25 @@
+{
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {},
+  "require-dev": {
+    "croox/wp-dev-env-frame": "0.13.0",
+    "composer/installers": "*",
+    "wp-bootstrap/wp-bootstrap-navwalker": "^4.3"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/croox/wp-dev-env-frame"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wp-bootstrap/wp-bootstrap-navwalker"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "sandale\\": "src/classes/"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+/*
+*GLOBAL OVERRIDE
+*/
+.woocommerce div.product form.cart .button.single_add_to_cart_button {padding: 20px; }
+
+
+/* ==========================================================================
+   Variation Swatches Styling
+   ========================================================================== */
+.lhd-variation {
+    .label  {
+        font-size: 1.1rem;
+    }
+    .variations {
+        tbody {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        th { padding: 0;}
+
+        span {
+            vertical-align: middle;
+        }
+    }
+    table tbody>tr:nth-child(odd)>td, table tbody>tr:nth-child(odd)>th {
+        background-color: transparent !important;
+
+    }
+    table tbody>tr:nth-child(even)>td, table tbody>tr:nth-child(even)>th {
+        background-color: transparent !important;
+
+    }
+
+    .thwepo-field {
+        padding: 0px;
+    }
+}
+
+.lhd-extra-variations {
+    padding-bottom: 20px;
+    .thwepo-field {
+        padding-top: 10px;
+    }
+
+    label {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+}
+
+/* ==========================================================================
+   Warenkorb
+   ========================================================================== */
+    .lhd-warenkorb-seite {
+        .return-to-shop {
+            display: none;
+        }
+
+        .wc-proceed-to-checkout  a {
+            background-color: white !important;
+
+            &:hover, &active {
+                background-color: black !important;
+                color: white !important;
+            }
+        }
+    }
+
+/* ==========================================================================
+   Thank You Page Styling
+   ========================================================================== */
+
+.woocommerce-bacs-bank-details {
+    background-color: white;
+    padding: 15px 30px;
+}
+
+.woocommerce-order-overview {
+    background-color: white;
+    padding: 15px 20px !important;
+}
+
+
+
+
